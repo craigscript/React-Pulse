@@ -1,0 +1,41 @@
+.popup {
+	position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  background-color: rgba(0,0,0, 0.65);
+  z-index: 9999;
+  overflow: hidden;
+}
+
+.popup-inner {
+  background: white;
+}
+
+.side-popup {
+  width: 100%;
+  max-width: 821px;
+  right: 35px;
+  top: 35px;
+  bottom: 35px;
+  position: absolute;
+  padding: 33px 44px;
+  overflow: auto;
+}
+
+@media screen and (max-width: 768px) {
+  .popup {
+    /*position: absolute;*/
+  }
+  .side-popup {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    padding: 20px 19px;
+    /*position: relative;*/
+  }
+}

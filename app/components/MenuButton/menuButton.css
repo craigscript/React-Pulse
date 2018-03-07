@@ -1,0 +1,13 @@
+.menu-button {
+	font-size: 14px;
+	color: #5c5c5c;
+	text-decoration: none;
+	font-weight: lighter;
+	vertical-align: middle;
+}
+.menu-button i, .menu-button span {
+	vertical-align: middle;
+}
+.menu-button span {
+	margin-left: 10px;
+}

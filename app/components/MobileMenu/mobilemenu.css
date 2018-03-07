@@ -1,0 +1,44 @@
+.mobile-container {
+}
+.mobile-menu {
+	right: 0;
+	top: 0;
+	position: absolute;
+	box-shadow: 1px 1px 4px 4px rgba(0, 0, 0, 0.09); 
+	background: white;
+	border-radius: 3px;
+	width: 100%;
+	z-index: 9998;
+}
+.mobile-menu ul {
+	list-style: none;
+	padding: 2px 26px;
+}
+.mobile-menu ul li a span, .mobile-menu i {
+	font-size: 17px;
+	word-break: break-all;
+}
+.mobile-menu ul li {
+	padding: 16px 0;
+	min-height: 52px;
+}
+.mobile-menu ul li:not(:last-child) {
+	border-bottom: 1px dashed #b4b4b4;
+}
+li .last {
+	border: none;
+}
+.mobile-menu .switch-menu-item {
+	display: none;
+}
+.mobilemenu-close {
+	position: absolute;
+	right: 26px;
+	top: 30px;
+}
+
+@media screen and (max-width: 568px) {
+	.mobile-menu .switch-menu-item {
+		display: block;
+	}
+}

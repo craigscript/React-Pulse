@@ -1,0 +1,13 @@
+.youtube-container {
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%; 
+  position: relative;
+  
+}
+.youtube-container .player {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+  }

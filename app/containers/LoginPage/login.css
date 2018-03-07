@@ -1,0 +1,40 @@
+.login-wrapper {
+	max-width: 830px;
+	width: 90%;
+	margin: 0px auto;
+	color: #5c5c5c;
+	background: white;
+	padding: 60px 0 60px 0;
+	flex: 1 0 auto;
+}
+.login-title {
+	font-size: 21px;
+	color: black;
+}
+.login-warning {
+	font-size: 18px;
+	width: 348px;
+	margin-top: 25px;
+	margin-bottom: 20px;
+}
+.login-field {
+	width: 100%;
+	max-width: 290px;
+	/*height: 40px;*/
+	border: 1px solid #b4b4b4;
+	border-radius: 3px;
+	padding: 12px 15px;
+	font-size: 14px;
+}
+.login-row {
+	width: 100%;
+	margin-top: 20px;
+}
+
+.warning {
+	font-size: 19px;
+}
+
+.warning-input {
+	border: 2px solid #ee4832;
+}

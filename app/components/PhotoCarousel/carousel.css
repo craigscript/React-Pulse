@@ -1,0 +1,22 @@
+
+.image {
+    position: relative;
+}
+.icon-fullscreen, .icon-resize_small {
+    font-size: 18px;
+    color: white;
+}
+.icon-uniF2EA, .icon-uniF2EE {
+    font-size: 25px;
+    color: #ee4832;
+}
+.image .zoom {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 3px;
+    width: 35px;
+    height: 35px;
+    padding: 0 0 0 3px;
+}

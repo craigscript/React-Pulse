@@ -1,0 +1,76 @@
+.list-item {
+	width: 100%;
+	box-shadow: 1px 0px 4px 4px rgba(0, 0, 0, 0.09); 
+	padding: 27px;
+	border-radius: 2px;
+	margin-top: 25px;
+	display: block;
+	position: relative;
+}
+.list-item::after {
+	display: block;
+	clear: both;
+	content: '';
+}
+.list-item.hide {
+	display:none;
+}
+.list-image {
+	width: 148px;
+	height: 104px;
+	vertical-align: middle;
+	border-radius: 3px;
+	background-size: cover;
+	background-position: center;
+	float: left;
+	position: relative;
+}
+.list-content {
+	width: calc(100% - 218px);
+	margin-left: 20px;
+	float: left;
+}
+.list-title {
+	font-size: 17px;
+}
+.list-category {
+	font-size: 12px;
+	text-transform: capitalize;
+}
+
+.list-item .fa
+{
+	font-size: 12px;
+	margin: 0 10px 0 10px;
+}
+
+.badge-text {
+	color: white;
+	text-align: center;
+}
+.badge-text {
+	font-size: 11px;
+	line-height: 10px;
+}
+
+.list-item .favorite {
+	float: right;
+	line-height: 104px;
+}
+.list-image .email {
+	position: absolute;
+	right: 7px;
+	bottom: 8px;
+}
+.list-image .email.emailed button {
+	color: #00FF00;
+}.list-content .type {
+	padding: 8px 10px;
+	font-size: 14px;
+	color: white;
+	width: 180px;
+	text-align: center;
+}
+.list-content .type img {
+	margin-top: -6px;
+}

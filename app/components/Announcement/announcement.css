@@ -1,0 +1,24 @@
+.announcement {
+	background: black;
+	padding: 27px 42px;
+}
+.announcement::after {
+	display: block;
+	content: '';
+	clear: both;
+}
+.announcement .content {
+	width: calc(100% - 120px);
+	min-width: 300px;
+	float: left;
+}
+.announcement .title {
+	color: #ee4832;
+	font-size: 18px;
+	font-weight: bold;;
+}
+.announcement .text {
+	font-size: 15px;
+	color: #b4b4b4;
+	font-weight: lighter;
+}

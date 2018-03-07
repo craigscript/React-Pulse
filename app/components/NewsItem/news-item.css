@@ -1,0 +1,35 @@
+.news-item::after{
+	display: block;
+	content: '';
+	clear: both;
+}
+.news-item {
+	margin-bottom: 16px;
+	position: relative;
+	display: block;
+}
+.news-item-left {
+	width: 34px;
+	float: left;
+}
+.news-item-left img {
+	width: 24px;
+	height: 24px;
+}
+.news-item-right {
+	width: calc(100% - 34px);
+	float: right;
+	font-weight: lighter;
+	min-height: 30px;
+}
+.news-item-title {
+	font-size: 14px;
+	color: #5c5c5c;
+	height: 24px;
+}
+.news-item-content {
+	color: black;
+	font-size: 15px;
+	width: calc(100% - 40px);
+	float: left;
+}

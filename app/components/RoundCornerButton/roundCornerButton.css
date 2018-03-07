@@ -1,0 +1,12 @@
+.roundCornerButton {
+	border-radius: 3px;
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	display: inline-block;
+	background-color: #ee4832;
+}
+
+.roundCornerButton span, .material-icons {
+	vertical-align: middle;
+}

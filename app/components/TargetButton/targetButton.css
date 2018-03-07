@@ -1,0 +1,22 @@
+.targetButton {
+	width: 80px;
+	min-height: 76px;
+	padding: 10px;
+	
+}
+.targetButton .targetName {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 13px;
+	font-weight: lighter;
+}
+
+.selected {
+	background-color: #EE4832;
+	color: white;
+}
+
+.unselected {
+	background-color: #e6e7e8;
+	color: #5c5c5c;
+	border: 1px solid #b4b4b4;
+}

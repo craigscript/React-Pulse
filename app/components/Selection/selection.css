@@ -1,0 +1,39 @@
+.selection {
+	margin-bottom: 20px;
+}
+
+.inner-selection {
+	display: inline-block;
+}
+.checkmark {
+	color: #ee4832;
+	margin-right: 25px;
+}
+
+.selectionIcon {
+	margin-right: 15px;
+	vertical-align: middle;
+	font-size: 30px;
+}
+
+.selectionText {
+	font-size: 14px;
+	font-weight: lighter;
+	vertical-align: middle;
+}
+
+.checkboxSelected {
+	color: #EE4832;
+}
+
+.checkboxUnselected {
+	color: #5c5c5c;
+}
+.selection button {
+	padding: 0;
+	vertical-align: middle;
+}
+.selection .material-icons {
+	font-size:  18px;
+
+}
